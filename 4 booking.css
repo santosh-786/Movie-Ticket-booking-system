@@ -1,0 +1,45 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 5%;
+    width: 90%;
+
+}
+
+td,
+th {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+    color: silver;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(80, 0, 0, 0.6);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#bookinfo1 {
+    margin-top: 10px;
+}
+
+#bknow {
+    width: 100%;
+    background-color: rgba(80, 0, 0, 0.05);
+    border: none;
+    color: silver;
+    font-family: eras itc medium;
+    font-size: 28px;
+}
+
+#bknow:hover {
+    background-color: rgba(57, 255, 0, 1);
+    border-radius: 13px;
+    color: black;
+    font-family: eras itc;
+
+}

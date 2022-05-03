@@ -1,0 +1,68 @@
+.frame {
+    border: 1px solid silver;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin-left: 6.5%;
+    margin-top: 12px;
+}
+
+.btn2 {
+    margin-right: 45px;
+}
+
+#no_bk {
+    text-align: center;
+    font-family: pristina;
+    color: silver;
+    font-size: 80px;
+    margin-top: 12%;
+}
+
+.tk_details {
+    margin-right: 28%;
+    margin-top: 3%;
+    float: right;
+    color: silver;
+    font-family: arial narrow;
+    font-size: 17px;
+}
+
+.card {
+    height: 227px;
+    margin-top: 3%;
+    float: left;
+}
+
+#ticketid {
+    color: silver;
+    font-family: pristina;
+    margin-left: 30%;
+    font-size: 19px;
+
+
+}
+
+.cancelbtn {
+    margin-top: 4%;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: silver;
+    font-family: arial narrow;
+}
+
+.cancelbtn:hover {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: gold;
+    font-family: impact;
+    font-size: 14px;
+}

@@ -1,0 +1,171 @@
+.movs {
+    width: 150px;
+    height: 220px;
+    border: 2px solid black;
+
+}
+
+.container {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 5px 5px;
+
+
+}
+
+h4 {
+    color: white;
+    font-family: arial narrow;
+    text-align: left;
+    font-size: 13px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1.0);
+}
+
+.topnav {
+
+    overflow: hidden;
+    background-color: black;
+	
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+
+
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: silver;
+}
+
+.topnav a.active {
+    background-color: maroon;
+    color: white;
+}
+
+.image {
+
+    width: 160px;
+    background: #000;
+    position: relative;
+    background-size: cover;
+}
+
+.overlay {
+    height: 200px;
+    width: 160px;
+    background: #eee;
+    /*display: none;*/
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.btn1,
+.btn2 {
+    height: 30px;
+    width: 70px;
+    background: #fff;
+    opacity: 0;
+
+    /*display: none;*/
+    /*position: absolute;*/
+}
+
+.btn1 {
+    margin-top: 90px;
+    margin-left: 10px;
+    color: black;
+    float: left;
+    -webkit-transition: all 0.4s ease-in;
+
+}
+
+.btn2 {
+    margin-top: 90px;
+    margin-right: 10px;
+    float: right;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.image:hover .overlay {
+    /*display: inline;*/
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.75;
+
+}
+
+.image:hover .btn1 {
+    /*display: inline;*/
+    background: orange;
+    opacity: 50;
+
+}
+
+.image:hover .btn2 {
+    /*display: inline;*/
+    background: blue;
+    opacity: 1;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.btn1 a:hover {
+    text-decoration: underline solid;
+}
+
+.btn2 a:hover {
+    text-decoration: underline solid;
+}
+
+.movie_title {
+    background-color: rgba(100, 100, 100, 0.5);
+    font-size: 35px;
+    font-family: pristina;
+    color: silver;
+    margin-bottom: 10px;
+}
+
+.bk_inf {
+    display: inline-block;
+    font-family: candara;
+    font-style: italic;
+    margin-top: 5px;
+    margin-left: 16px;
+    color: White;
+}
+
+.bkmov {
+    display: inline;
+    align-content: center;
+}
