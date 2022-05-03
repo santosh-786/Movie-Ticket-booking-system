@@ -1,0 +1,35 @@
+.forward {}
+
+
+.fwd {
+    margin-top: 60px;
+    margin-left: 300px;
+    background-color: rgba(10, 10, 10, 0.4);
+    ;
+    border: 1.5px solid;
+    border-radius: 13px;
+    height: 50px;
+    border-color: rgba(54, 23, 192, 0.6);
+    width: 300px;
+    color: silver;
+    font-family: sans-serif;
+    opacity: 1.0;
+    font-size: 25px;
+}
+
+.fwd:hover {
+    -webkit-transition: all 0.2s ease-in;
+    margin-top: 60px;
+    background-color: rgba(133, 182, 100, 0.7);
+    ;
+    border: 1px solid;
+    border-color: darkgoldenrod;
+    border-radius: 13px;
+    height: 50px;
+    border-color: rgba(150, 150, 150, 0.6);
+    width: 300px;
+    color: darkgoldenrod;
+    font-family: Helvetica;
+    opacity: 1.0;
+    font-size: 25px;
+}
