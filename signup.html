@@ -1,0 +1,48 @@
+<html>
+<title>signup</title>
+
+<head>
+    <link rel="stylesheet" href="1.css" />
+
+</head>
+
+<body align="center">
+    <form name="myform" action="registrar.php" class="login_form_style" onsubmit="return validateForm();" method="post">
+        <fieldset style="width: 250px;">
+            <legend>Sign Up</legend>
+            <input type="text" name="name" value="" placeholder="enter name" id="text1" required><br><br>
+            <input type="email" name="userid" value="" placeholder="enter e-mail address" id="text2" required>
+            <br><br>
+            <input type="tel" name="phone" value="" placeholder="enter 10-digit mobile number" id="text2" maxlength="10" required pattern="[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+            <!--<span class="note">format: x x x x x x x x x x(only digits)</span>-->
+            <br><br>
+            <input type="password" name="pass" value="" placeholder="***********" id="text2" maxlength="8" minlength="4" required>
+            <br><br>
+            <select name="secques" id="ddmenu" style="width:235px; min-height:28px; font-family:calibri; font-size:18;" required>
+
+                <option value="" disabled selected hidden>Choose Security Question:&nbsp;&nbsp;&nbsp;&nbsp;</option>
+
+                <option>What is your mother's maiden name?</option>
+
+                <option>What is your nick name?</option>
+
+                <option>Where is your favorite place to vacation?</option>
+
+                <option>What city were you born in?</option>
+                <option>Where did you go to high school/college?</option>
+                <option>What is your favorite food?</option>
+
+            </select><br><br>
+            <input type="text" name="answer" value="" placeholder="enter answer" id="text2" maxlength="30" required>
+            <br><br>
+
+
+            <input type="submit" value="Submit" id="b1">&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

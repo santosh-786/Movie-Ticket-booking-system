@@ -1,0 +1,167 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	margin:0px;
+
+}
+
+.bg-container {
+  background-image: url("6new.jpg");
+  width:100%;
+  height:1100px;
+  overflow:hidden;
+  
+}
+
+.login_form_style {
+	background-color: blue;
+    margin-top: -110px;
+    align: center;
+	width:130px;
+	margin-left:490px;
+	padding-right:245px;
+	padding-left:-50px;
+	margin-right:490px;
+}
+
+*:focus {
+    outline: none;
+}
+
+#text1,
+#text2 {
+    border: 1.5px solid;
+    background-color: transparent;
+    border-radius: 13px;
+    border-color: rgba(130, 130, 130, 1);
+    height: 30px;
+    width: 240px;
+    opacity: 1.0;
+    color: antiquewhite;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'myFont', pristina, Helvetica, sans-serif;
+    font-size: 19px;
+    color: dimgray;
+}
+
+legend {
+    color: silver;
+    font-family: pristina;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#b1,
+#b2 {
+    background-color: transparent;
+    border: 1.5px solid;
+    border-radius: 13px;
+    height: 30px;
+    border-color: rgba(150, 150, 150, 0.6);
+    width: 80px;
+    color: grey;
+    font-family: pristina;
+    opacity: 1.0;
+    font-size: 20px;
+}
+
+#b1:hover,
+#b2:hover {
+    background-color: rgba(57, 255, 0, 1);
+    font-family: pristina;
+    font-size: 26px;
+    border: 1px solid;
+    border-radius: 13px;
+    height: 30px;
+    border-color: rgba(150, 150, 150, 0.5);
+    width: 100px;
+
+    color: black;
+    opacity: 1.0;
+}
+
+option {
+    font-size: 20px;
+    color: gray;
+    background-color: black;
+    font-family: agency FB;
+    background-color: transparent rgba(0, 0, 0.4);
+
+}
+
+#ddmenu {
+    background-color: transparent;
+    border-radius: 13px;
+    border-color: rgba(130, 130, 130, 0.9);
+    height: 30px;
+    width: 240px;
+    opacity: 1.0;
+    color: grey;
+    font-family: pristina;
+}
+
+fieldset {
+    border: 1.5px solid rgba(220, 220, 220, 0.7);
+    width: 400px;
+    margin-top: 360px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 40%;
+    border-radius: 13px;
+    color: darkred;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 80px;
+    font-family: IMPACT;
+    color: darkred;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#logo:hover {
+    -webkit-transition: all 0.2s ease-in;
+    font-size: 100px;
+    font-family: IMPACT;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.note {
+    font-family: pristina;
+    font-size: .9em;
+    color: gray;
+}
+
+#passprob {
+    font-family: pristina;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.lass {
+    margin-left: 60px;
+    display: inline-block
+}
+
+.lass a {
+
+    text-decoration: none;
+    color: Silver;
+    font-size: 20px;
+    font-family: pristina;
+}
+
+.lass a:hover {
+    -webkit-transition: all 0.4s ease-in;
+    text-decoration: underline solid;
+    color: goldenrod;
+
+
+}
